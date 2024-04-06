@@ -1,0 +1,23 @@
+## python, 06.04.2024
+
+if else statements
+x = 50
+
+if x < 50:
+  print( 'Less than 50 ' )
+else:
+  print('More than or equal to 50')
+
+a = 20
+if a > 10:
+  print('a is above 10')
+  print('this is in the a block')
+print('this is outside a block')
+
+age = 15
+if age >= 18:
+  print('You are eligible to vote')
+  print('Please preceed to the voting booth')
+else: 
+  print("You are NOT eligible to vote")
+print("Thank you for participating")
